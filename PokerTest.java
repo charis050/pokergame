@@ -39,7 +39,7 @@ public class PokerTest extends junit.framework.TestCase
         assertFalse(pair.isStraight());
         assertTrue(sf.isStraight());
         assertTrue(sf.isFlush());
-        //assertTrue(sa.isStraight());
+        assertTrue(sa.isStraight());
     }
 
     public void testBestHand() {
